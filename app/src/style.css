@@ -199,7 +199,7 @@ a {
   top: 10px;
   right: 10px;
   width: 350px;
-  max-width: 100%;
+  max-width: calc(100% - 20px);
   padding: 0;
   box-sizing: border-box;
   font-weight: 200;
@@ -261,7 +261,6 @@ nav {
   flex-shrink: 0;
   line-height: 1;
   gap: 7px;
-  width: 48px;
   font-size: 12px;
   cursor: pointer;
   padding: 0.45em;
@@ -432,4 +431,29 @@ nav {
 
 #extended-menu.is-open {
   background-color: rgba(248, 247, 247, 0.87);
+}
+
+.title {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .header--block {
+    padding-inline: 0.75em;
+  }
+}
+
+@media (max-width: 620px) {
+  .header--block .nav-item:not(:last-child) {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .header--block:first-child {
+    display: none;
+  }
+  .header--block:nth-child(2) {
+    border: none;
+  }
 }
