@@ -1,11 +1,12 @@
 import './style.css'
-import maplibregl from 'maplibre-gl';
+import { Map, ScaleControl, NavigationControl } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css'
 
 import { registerOpenModalButtons, registerCloseButtonsOnModals } from './modalFunctions'
 import { registerOverlaySwitcherEvents } from "./overlaySwitcher";
+import { registerExtendedMenu } from "./extendedMenu";
 
-const map = new maplibregl.Map({
+const map = new Map({
   container: 'map',
   style: '/prague2.json', // stylesheet location
   center: [14.41, 50.07], // starting position [lng, lat]
@@ -13,9 +14,8 @@ const map = new maplibregl.Map({
   minZoom: 7,
 });
 
-map.addControl(new maplibregl.ScaleControl({}), 'bottom-left');
-map.addControl(new maplibregl.NavigationControl({}),'top-left');
-
+map.addControl(new ScaleControl({}), 'bottom-left');
+map.addControl(new NavigationControl({}),'top-left');
 map.on('load', function () {
   map.addSource('ortofoto-source', {
     type: 'raster',
@@ -23,7 +23,7 @@ map.on('load', function () {
       'https://geoportal.cuzk.cz/WMS_ORTOFOTO_PUB/WMService.aspx?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=GR_ORTFOTORGB&WIDTH=256&HEIGHT=256&CRS=EPSG%3A3857&STYLES=&BBOX={bbox-epsg-3857}'
     ],
     tileSize: 256,
-    attribution: 'Ortofoto © <a href="https://geoportal.cuzk.cz/" rel="noopener noreferrer"  target="_blank">ČÚZK</a>'
+    attribution: 'Ortofoto ČR © ČÚZK'
   })
   map.addSource('herget', {
     type: 'raster',
@@ -31,6 +31,7 @@ map.on('load', function () {
       'https://gs-pub.praha.eu/arcgis/services/arch/mapove_podklady_archiv/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=37&WIDTH=256&HEIGHT=256&&CRS=EPSG%3A3857&STYLES=&BBOX={bbox-epsg-3857}'
     ],
     tileSize: 256,
+    attribution: '© IPR Praha'
   })
   map.addSource('juttner', {
     type: 'raster',
@@ -38,6 +39,7 @@ map.on('load', function () {
       'https://gs-pub.praha.eu/arcgis/services/arch/mapove_podklady_archiv/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=33&WIDTH=256&HEIGHT=256&&CRS=EPSG%3A3857&STYLES=&BBOX={bbox-epsg-3857}'
     ],
     tileSize: 256,
+    attribution: '© IPR Praha'
   })
   map.addSource('o1938', {
     type: 'raster',
@@ -45,6 +47,7 @@ map.on('load', function () {
       'https://gs-pub.praha.eu/arcgis/services/ort/ortofotomapa_archiv/MapServer/WmsServer?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=181%2C182%2C183&WIDTH=256&HEIGHT=256&&CRS=EPSG%3A3857&STYLES=&BBOX={bbox-epsg-3857}'
     ],
     tileSize: 256,
+    attribution: '© IPR Praha'
   })
   map.addLayer(
       {
@@ -80,9 +83,21 @@ map.on('load', function () {
       })
 });
 
+// map.on('contextmenu', (e: MapMouseEvent) => {
+//   // open maplibre popup at the location of the click, with Lan and Lon - fade in
+//     const popup = new maplibregl.Popup()
+//         .setLngLat(e.lngLat)
+//         .setHTML(`<p>Longitude: ${e.lngLat.lng.toFixed(4)}</p><p>Latitude: ${e.lngLat.lat.toFixed(4)}</p>`)
+//         .addTo(map);
+// });
+
 (<any>window).map = map;
+
+//function to query for data from the map by string containing name of featur
 
 registerCloseButtonsOnModals(document.getElementsByClassName('modal'))
 registerOpenModalButtons(document.getElementsByClassName('nav-item'))
-
 registerOverlaySwitcherEvents(document.getElementsByClassName('overlay-switcher-item'), map)
+registerExtendedMenu()
+
+//map.queryRenderedFeatures();
