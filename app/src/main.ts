@@ -5,6 +5,8 @@ import 'maplibre-gl/dist/maplibre-gl.css'
 import { registerOpenModalButtons, registerCloseButtonsOnModals } from './modalFunctions'
 import { registerOverlaySwitcherEvents } from "./overlaySwitcher";
 import { registerExtendedMenu } from "./extendedMenu";
+import { addGraveyards } from "./addGraveyardsLayer";
+import { createLegendContent } from "./legend";
 
 const map = new Map({
   container: 'map',
@@ -81,15 +83,9 @@ map.on('load', function () {
         layout: {visibility: 'none'},
         paint: {}
       })
+  addGraveyards(map);
+  createLegendContent();
 });
-
-// map.on('contextmenu', (e: MapMouseEvent) => {
-//   // open maplibre popup at the location of the click, with Lan and Lon - fade in
-//     const popup = new maplibregl.Popup()
-//         .setLngLat(e.lngLat)
-//         .setHTML(`<p>Longitude: ${e.lngLat.lng.toFixed(4)}</p><p>Latitude: ${e.lngLat.lat.toFixed(4)}</p>`)
-//         .addTo(map);
-// });
 
 (<any>window).map = map;
 

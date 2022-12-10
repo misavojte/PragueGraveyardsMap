@@ -30,7 +30,11 @@ export function registerOpenModalButtons(buttons: HTMLCollectionOf<Element>): vo
   }
 }
 
-async function closeAnyOpenModalExcept (modals: HTMLCollectionOf<Element>, except: Element): Promise<void> {
+/** Closes every modal except the one passed as an argument.
+ * @param modals - The collection of modals to close.
+ * @param except - The modal to skip. If null, all modals will be closed.
+ */
+export async function closeAnyOpenModalExcept (modals: HTMLCollectionOf<Element>, except: Element | null): Promise<void> {
   for (let i = 0; i < modals.length; i++) {
     const modal = modals[i]
     if (modal === null) continue

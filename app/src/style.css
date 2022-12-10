@@ -208,6 +208,7 @@ a {
   box-shadow: 0 0 0 2px rgb(0 0 0 / 10%);
   border: solid 1px #00000012;
   z-index: 2;
+  line-height: 1.25;
 }
 
 .modal-header {
@@ -435,6 +436,77 @@ nav {
 
 .title {
   width: 100%;
+}
+
+#graveyard-info h3 {
+  margin-block: 0.5em;
+  line-height: 1.1;
+}
+
+#graveyard-info p {
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+#graveyard-info figure {
+  margin: 0;
+  padding-block: 0.5em;
+}
+
+#graveyard-info figure figcaption {
+  font-size: 0.75em;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+.meta-info {
+  font-size: 0.95em;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+.f075em {
+  font-size: 0.75em;
+}
+
+.graveyard-image {
+  margin-top: 0.5em;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.legend-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 14px;
+  align-items: center;
+  margin-block: 0.5em;
+}
+
+.legend-row > *:first-child {
+  justify-self: center;
+}
+
+.legend-point {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: white 2px solid
+}
+
+.small-info {
+  font-size: 0.75em;
+}
+
+ul {
+  padding-left: 14px;
+}
+
+li {
+  line-height: 1;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 720px) {

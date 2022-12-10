@@ -41,6 +41,14 @@
           Překrytí
         </span>
       </div>
+      <div data-modal="legend" class="nav-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+        </svg>
+        <span>
+          Legenda
+        </span>
+      </div>
       <div id="extended-menu-opener" class="nav-item">
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -67,10 +75,18 @@
     </div>
     <div class="modal-content">
       <p>
-        Tematická vrstva ranně středověkých pohřebišť v Pražské památkové rezervaci vychází z publikace xyz. Zobrazuje jejich polohu a základní informace o ...
+        Tematická vrstva raně středověkých pohřebišť v&nbsp;Pražské památkové rezervaci vychází z&nbsp;publikací:
+        <ul>
+        <li>Pohřební areály v pražské předlokační v&nbsp;11.&nbsp;až&nbsp;1.&nbsp;polovině 13.&nbsp;století<br><span class="small-info">(Havrda J., Tryml M.)</span></li>
+        <li>K pohřbívání v pravobřežní části pražské předlokační aglomerace v 9. a&nbsp;10.&nbsp;století<br><span class="small-info">(Havrda J., Žďárská A.)</span></li>
+        </ul>
       </p>
       <p>
-        Mapová aplikace byla vyvinuta <a href="https://vojtechovska.com">Michaelou Vojtěchovskou</a>, <a href="https://github.com/tkacovas">Stelou Tkáčovou</a> a Natálií Karamonovou z katedry geoinformatiky PřF UPOL.
+        Mapu vytvořily na Katedře geoinformatiky PřF UP v Olomouci:
+        <ul>
+          <li><a href="https://vojtechovska.com">Michaela Vojtěchovská</a><br><span class="small-info">(kódování a design aplikace)</span></li>
+          <li><a href="https://github.com/tkacovas">Stela Tkáčová</a> a Natálie Karamonová<br><span class="small-info">(digitalizace, příprava tematické vrstvy)</span></li>
+        </ul>
       </p>
     </div>
   </div>
@@ -104,13 +120,6 @@
             <input type="range" min="5" max="100" value="100" step="5">
           </div>
         </div>
-        <div class="overlay-switcher-item" data-layer="herget">
-          <img src="/img/overlayPreview/herget.png" alt="">
-          <div>
-            <div>Hergetův plán 1791</div>
-            <input type="range" min="5" max="100" value="100" step="5">
-          </div>
-        </div>
         <div class="overlay-switcher-item" data-layer="juttner">
           <img src="/img/overlayPreview/juttner.png" alt="">
           <div>
@@ -118,10 +127,45 @@
             <input type="range" min="5" max="100" value="100" step="5">
           </div>
         </div>
+        <div class="overlay-switcher-item" data-layer="herget">
+          <img src="/img/overlayPreview/herget.png" alt="">
+          <div>
+            <div>Hergetův plán 1791</div>
+            <input type="range" min="5" max="100" value="100" step="5">
+          </div>
+        </div>
       </div>
     </div>
   </div>
   <div id="feature-info" class="modal is-hidden">
+    <div class="modal-header">
+      <h2>
+        O lokalitě
+      </h2>
+      <span class="modal-close js-click">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+    </div>
+    <div class="modal-content">
+    </div>
+  </div>
+  <div id="legend" class="modal is-hidden">
+    <div class="modal-header">
+      <h2>
+        Legenda tematické vrstvy
+      </h2>
+      <span class="modal-close js-click">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+            </svg>
+          </span>
+    </div>
+    <div class="modal-content">
+    </div>
+  </div>
+  <div id="graveyard-info" class="modal is-hidden">
     <div class="modal-header">
       <h2>
         O lokalitě
@@ -155,6 +199,14 @@
           </svg>
           <span>
           Překrytí
+        </span>
+        </div>
+        <div data-modal="legend" class="nav-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+          </svg>
+          <span>
+          Legenda
         </span>
         </div>
       </nav>
