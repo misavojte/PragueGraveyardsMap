@@ -44,7 +44,7 @@ export function fadeIn(el: Element): Promise<void> {
         el.classList.remove('is-fading-in-ready', 'is-fading-in')
         resolve()
       }, {once: true})
-    }, 0)
+    }, 5)
   })
 }
 

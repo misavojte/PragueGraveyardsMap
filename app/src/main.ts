@@ -11,9 +11,12 @@ import { createLegendContent } from "./legend";
 const map = new Map({
   container: 'map',
   style: '/prague2.json', // stylesheet location
-  center: [14.41, 50.07], // starting position [lng, lat]
+  center: [14.409642219543457, 50.08410524117187], // starting position [lng, lat]
   zoom: 12, // starting zoom
   minZoom: 7,
+  maxZoom: 18,
+  maxBounds: [[11.090, 47.550], [19.860, 52.050]],
+  clickTolerance: 5,
 });
 
 map.addControl(new ScaleControl({}), 'bottom-left');
@@ -87,13 +90,11 @@ map.on('load', function () {
   createLegendContent();
 });
 
+//for debugging
 (<any>window).map = map;
-
-//function to query for data from the map by string containing name of featur
 
 registerCloseButtonsOnModals(document.getElementsByClassName('modal'))
 registerOpenModalButtons(document.getElementsByClassName('nav-item'))
 registerOverlaySwitcherEvents(document.getElementsByClassName('overlay-switcher-item'), map)
 registerExtendedMenu()
 
-//map.queryRenderedFeatures();

@@ -17,11 +17,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 body {
@@ -35,49 +35,6 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #3178c6aa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
 
 /*-------------------------*/
@@ -122,6 +79,10 @@ header {
 .header--block:first-child {
   border: none;
   flex-shrink: 0;
+}
+
+.header--block:first-child a {
+  display: flex;
 }
 
 .header--block:last-child {
@@ -527,5 +488,8 @@ li {
   }
   .header--block:nth-child(2) {
     border: none;
+  }
+  .modal {
+    width: 100%;
   }
 }

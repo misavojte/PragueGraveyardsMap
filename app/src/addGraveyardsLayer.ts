@@ -13,8 +13,8 @@ export const COLOR_11 = '#cc4c02';
 export const COLOR_NADOBY = '#969696';
 export const COLOR_RANY = '#993404';
 
-let markersOnMap: MarkerWithId[] = [];
-let markersOnMapId: number[] = [];
+let markersOnMap: Set<MarkerWithId> = new Set();
+let markersOnMapId: Set<number> = new Set();
 
 /**
  * @constant
@@ -71,50 +71,39 @@ export function addGraveyards (map: Map): void {
  * @param map - The MapLibre GL JS Map instance to which the features will be added.
  */
 function testClusters(map: Map): void {
-    const features = map.querySourceFeatures(GRAVEYARDS_LAYER_ID, {
-        sourceLayer: GRAVEYARDS_LAYER_ID,
-        filter: ['has', 'point_count'],
-    });
-    const clusterIdsInView: number[] = [];
-    const clusterMarkersInView: MarkerWithId[] = [];
+    const features = map.querySourceFeatures(GRAVEYARDS_LAYER_ID);
+    const clusterIdsInView: Set<number> = new Set();
+    const clusterMarkersInView: Set<MarkerWithId> = new Set();
     //adding clusters to map
     for (let i = 0; i < features.length; i++) {
         const feature = features[i];
+        const clusterId = feature.properties?.cluster_id;
+        if (clusterId === undefined) continue; //skip if not a cluster
         const geometry = feature.geometry as GeoJSON.Point;
         const coordinates = geometry.coordinates as [number, number];
         const pointCount = feature.properties?.point_count;
-        const clusterId = feature.properties?.cluster_id;
-        clusterIdsInView.push(clusterId);
-        if (isClusterOnMap(clusterId)) continue
+        clusterIdsInView.add(clusterId);
+        if (markersOnMapId.has(clusterId)) continue
         const marker = new MarkerWithId(
             clusterId,{
               element: createClusterElement(pointCount, feature.properties?.['9_11_stoleti'], feature.properties?.['11_stoleti'], feature.properties?.['nalezy_nadob'], feature.properties?.['rany_stredovek']),
         })
         .setLngLat(coordinates)
         .addTo(map);
-        clusterMarkersInView.push(marker);
+        clusterMarkersInView.add(marker);
     }
 
-    //removing unused clusters from map
-    for (let i = 0; i < markersOnMap.length; i++) {
-        const marker = markersOnMap[i];
-        if (clusterIdsInView.includes(marker.id)) {
-          clusterMarkersInView.push(marker);
-          continue
-        }
+    for (const marker of markersOnMap) {
+      if (clusterIdsInView.has(marker.id)) {
+        clusterMarkersInView.add(marker);
+        continue;
+      }
         marker.remove();
     }
+
     markersOnMap = clusterMarkersInView;
     markersOnMapId = clusterIdsInView;
 
-}
-
-/** Check if current cluster is already on map by its id
- * @param clusterId - The id of the cluster.
- * @returns true if cluster is already on map, false otherwise
- */
-function isClusterOnMap(clusterId: number): boolean {
-    return markersOnMapId.includes(clusterId);
 }
 
 /** Create HTML element for a cluster - pie chart with total count of features in the middle.
@@ -125,9 +114,9 @@ function isClusterOnMap(clusterId: number): boolean {
  * @param count11 - The number of features with category 11_stoleti.
  * @param countNadoby - The number of features with category nalezy_nadob.
  * @param countRane - The number of features with category rany_stredovek.
- * @returns HTML element
+ * @returns Canvas element
  */
-export function createClusterElement(pointCount: number, count9_11: number, count11: number, countNadoby: number, countRane: number): HTMLElement {
+export function createClusterElement(pointCount: number, count9_11: number, count11: number, countNadoby: number, countRane: number): HTMLCanvasElement {
 
   const baseSize = pointCount >= 40 ? 60 : pointCount >= 20 ? 50 : pointCount >= 10 ? 40 : 30;
   const size = baseSize * ratio;
@@ -198,7 +187,8 @@ map.on('click', GRAVEYARDS_LAYER_ID, (e) => {
     fetch(PATH_TO_ADDITIONAL_DATA)
       .then((response) => response.json())
       .then((data) => {
-        const html = (data[featureId] !== undefined) ? parseGraveyardData(data[featureId] as GraveyardData, feature) : parseFeatureWihtoutAdditionalData(feature)
+        const featureData = data.find((feature: GraveyardData) => feature.id === featureId)
+        const html = (featureData !== undefined) ? parseGraveyardData(featureData as GraveyardData, feature) : parseFeatureWihtoutAdditionalData(feature)
         openGraveyardModal(html)
       })
 })
@@ -210,7 +200,6 @@ map.on('click', GRAVEYARDS_LAYER_ID, (e) => {
  * @returns HTML string
  */
 function parseGraveyardData(data: GraveyardData, feature: GeoJSON.Feature): string {
-  console.log(data)
     return `
         <h3>${data.name ? data.name : 'Název nevyplněn'}</h3>
         ${parseBaseData(feature)}
@@ -317,6 +306,7 @@ function formatCoordinates(coordinates: number[]): string {
  * @property images - An array of images related to the graveyard.
  */
 export interface GraveyardData {
+    id: number
     name: string
     address: string
     caption: string
