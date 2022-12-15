@@ -1,0 +1,339 @@
+[
+    {
+      "id": 1,
+	  "name": "Pohřebiště na zahradě Vratislavského paláce",
+      "caption": "Zkoumaná poloha leží na severním svahu Petřína, mimo hlavní osídlený prostor pražské levobřežní raně středověké aglomerace, 115 metrů od hradby vybudované v 10. století k ochraně podhradí Pražského hradu. Výzkum proběhl na dvou plochách označených jako sektor A a B o celkové výměře 190 m2.",
+      "address": "Ulice Tržiště čp. 366/III",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 222,
+      "images": [
+        {
+          "path": "1_sv_vavrinec_A.png",
+          "caption": "Půdorys jižního sektoru"
+        },
+        {
+          "path": "1_sv_vavrinec_B.png",
+          "caption": "Půdorys severního sektoru"
+        }
+      ]
+    },
+    {
+      "id": 2,
+	  "name": "Pohřebiště u kostela sv. Vavřince v Nebovidech",
+      "caption": "Hroby nebo vrstvy hřbitovního horizontu pohřebiště u kostela sv. Vavřince byly zjištěny při provádění pěti terénních akcí. V kostele a v jeho bezprostředním okolí bylo odkryto 13 hrobových jam nebo výkopů, které lze za hrobové jámy důvodně považovat.",
+      "address": "Ulice Hellichova čp. 553/III, Karmelitská čp. 528/III a Újezd čp. 389/III.",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 226,
+      "images": [
+        {
+          "path": "2_sv_vavrince.png",
+          "caption": "Situace archeologických výzkumů realizovaných v kostele a jeho okolí."
+        }
+      ]
+    },
+	{
+      "id": 3,
+	  "name": "Pohřebiště u kostela sv. Maří Magdalény",
+      "caption": "Skupina raně středověkých hrobů byla odkryta uvnitř budovy čp. 387/III, v její nepodsklepené severozápadní části. Ve třech nevelkých sondách X23, X24 a X25 bylo na ploše pouhých 3 m2 zdokumentováno celkem 17 pohřbů. K raně středověkému pohřebišti dokumentovanému v čp. 378/III patrně patří i hrob nalezený přibližně deset metrů severněji pod vozovkou Harantovy ulice.",
+      "address": "Ulice Karmelitská čp. 387/III, ppč. 1050",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 230,
+	  "images": [
+        {
+          "path": "3_sv_marie_magdalena.png",
+          "caption": "Situace archeologických výzkumů realizovaných v kostele a jeho okolí."
+        }
+      ]
+    },
+	{
+      "id": 4,
+	  "name": "Pohřebiště u kostela sv. Martina",
+      "caption": "V oblasti Sněmovní ulice byly raně středověké hrobové nálezy doloženy na několika místech. V severní části parcely domu čp. 177/III byl odkryt částečně narušený kostrový hrob  V hrobové jámě hluboké jeden metr se kromě kosterních pozůstatků dochovaly zbytky dřeva, snad doklad rakve. V jeho zásypu byly nalezeny zlomky raně středověké keramiky 10.–11. století.",
+      "address": "Ulice Sněmovní čp. 177/III",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 234,
+      "images": [
+        {
+          "path": "2_sv_vavrince.png",
+          "caption": "Okolí Sněmovní ulice s kostely sv. Martina, sv. Ondřeje, sv. Michala a sv. Václava na upraveném výseku rekonstrukčního plánu Prahy k roku 1419"
+        }
+      ]
+    },
+	{
+      "id": 5,
+	  "name": "Pohřebiště u kostela sv. Michala pod Hradem",
+      "caption": "U kostela sv. Michala se nacházelo nejsevernější malostranské pohřebiště. Dosud z něho známe 13 hrobů. Ve dvacátých letech 20. století na parcele č. 584 na jižním okraji zahrady na Valech, severně od zahrady domu čp. 171/III, bylo při stavebních úpravách zaznamenáno 11 hrobů, respektive pohřbených jedinců. Kostry ležely v rakvích či prknech, u jednoho hrobu stál pískovcový kámen.",
+      "address": "Ulice Sněmovní čp. 171/III a zahrada na Valech, ppč. 584",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 239,
+      "images": [
+        {
+          "path": "6_sv_michal.png",
+          "caption": "Situace realizovaných archeologických výzkumů."
+        }
+      ]
+    },
+	{
+      "id": 6,
+	  "name": "Pohřebiště u kostela sv. Jana Křtitele v Oboře",
+      "caption": "Při výzkumu byly dokumentovány i středověké hroby. Ve východní partii lodi bylo zjištěno několik pohřbů, z nichž tři byly stavbou rotundy porušeny. U lebky jednoho ze skeletů byly objeveny dvě záušnice, publikované jako cínové (Dragoun 1988, 411), o průměru 40 mm a síle drátu 4 mm.",
+      "address": "Jánský vršek čp. 323/3",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 242,
+      "images": [
+        {
+          "path": "8_jan_krstitel.png",
+          "caption": "Situace realizovaných archeologických výzkumů."
+        }
+      ]
+    },
+	{
+      "id": 7,
+	  "name": "Pohřebiště u kostela sv. Jana Křtitele na prádle",
+      "caption": "U západního průčelí stavby byla vedle raně novověkých hrobů odkryta jáma obsahující kromě keramiky denáry Vratislava II. (1062–1092), nicméně raně středověké hroby nebyly u kostela doloženy (Huml 1973a, 78; Huml 1989, 109). Nález několika záušnic v sekundární poloze, učiněný I. Borkovským při výzkumu hřbitova v 1938, tak zůstává osamocenou indicií staršího pohřbívání.18 V roce 2013 byla severovýchodně od kostela při archeologickém výzkumu ve výkopu pro vodovod objevena hřbitovní zeď.",
+      "address": "Ulice Všehrdova, ppč. 322 a 323/1",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 245,
+      "images": [
+        {
+          "path": "9_jan_krstitel_na_pradle.png",
+          "caption": "Archeologické sondy a nálezy v prostoru křižovatky ulic Všehrdovy a Říční."
+        }
+      ]
+    },
+	{
+      "id": 8,
+	  "name": "Pohřebiště na Loretánském náměstí",
+      "caption": "V jihovýchodní části plochy dnešního náměstí bylo Ivanem Borkovským dokumentováno více než 800 převážně středověkých kostrových hrobů (obr. 37). Nestarší datovatelné hroby jsou vybavené denáry Vratislava II. (1061–1092). Pohřby s denáry porušují ještě starší hroby, počátky zdejšího pohřbívání jsou proto kladeny nejspíše do 2. poloviny 11. století. Hřbitovní areál vznikl na místě předchozího osídlení. Hrobů zařaditelných do mladohradištního období je minimálně 200.",
+      "address": "Loretánské náměstí, ppč. 742",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 247,
+      "images": [
+        {
+          "path": "11_loretanske_nam.png",
+          "caption": "Situace realizovaných archeologických výzkumů."
+        }
+      ]
+    },
+	{
+      "id": 9,
+	  "name": "Pohřebiště u kostela Panny Marie, II. nádvoří Pražského hradu",
+      "caption": "Nekropole kolem kostela Panny Marie je výjimečná už skutečností, že jde o jednu z mála publikovaných pražských kostelních nekropolí. V blízkosti kostela bylo doloženo intenzivní raně středověké pohřbívání. Našeho tématu se týká především druhá etapa (11. a 12. století), do níž je řazeno 31 hrobů, přičemž nejmladší etapu z 12. a 13. století (23 hrobů) spojuje autor již s přechodem k etážovému způsobu pohřbívání. Podle keramiky je závěr existence nekropole předběžně kladen do 1. třetiny 13. století (Frolík 2018, 77). K nejčastějšímu artefaktu náležely záušnice, celkem 26 kusů, z nich ovšem pouze sedm kusů bylo nalezeno v hrobech.",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 250
+    },
+	{
+      "id": 10,
+	  "name": "Pohřebiště u rotundy sv. Víta / baziliky sv. Víta, Václava a Vojtěcha, III. Nádvoří ",
+      "caption": "V prostoru III. nádvoří bylo během mnoha let výzkumů (1925–2000) zjištěno celkem 245 hrobů. Pohřebištěnebylo dosud publikačně zpřístupněno, ze stručných zmínek si prozatím nelze učinit přehledný obrázek.Podle Jana Frolíka hroby (s výjimkou jedné skupiny řazené do staršího období) převážně souvisejí s církevními stavbami – rotundou sv. Víta a posléze bazilikou sv. Víta, Václava a Vojtěcha (Frolík – Kaupová2016, 104)",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 250
+    },
+	{
+      "id": 11,
+	  "name": "Pohřebiště u sv. Jiří",
+      "caption": "Na východním dvoře za bazilikou bylo v roce 2012 odkryto 27 hrobů, pouze u tří z nich lze bezpečnědoložit dataci před rok 1142, neboť jsou porušeny výkopem pro základ románského presbytáře (Mašterová2016, 140). U ostatních je datace do mlado- až pozdně hradištního období hypotetická. Strukturu a roz-místění hrobů označuje autorka zpracování za obecně řadovou až etážovou. Bezpečnějším závěrům bráníznačná fragmentárnost nálezů.",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 251
+    },
+		{
+      "id": 12,
+	  "name": "Pohřebiště vně jižního opevnění Hradu",
+      "caption": "Pohřebiště vně jižního opevnění je rekonstruováno na základě zjištění při stavebních akcích a archeologických výzkumech v prostoru Starého královského paláce a jeho nejbližšího jižního okolí v letech 1926–1988. Pohřební aktivita v podobě 40 hrobů, dvou skládek kostí a tří souborů kostí z kulturních vrstev je doložena v sedmi izolovaných polohách situovaných na poměrně prudkém svahu ostrožny (Tomanová 2016).",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 251
+    },
+		{
+      "id": 13,
+	  "name": "Pohřebiště v Jiřské ulici a ve Zlaté uličce u Daliborky",
+      "caption": "Dosud bylo publikováno pět hrobů bez hrobové výbavy a množství kostí v sekundárním uložení. Fragmenty kamenného obložení u dvou hrobů indikují zařazení nekropole do raného středověku. Autoři zpracování předpokládají existenci řadového pohřebiště a datují ho do 11.–12. století (Tomková – Matiášek 2016,159).",
+      "address": "Jiřská ul. čp. 9/IV, u čp. 8/IV a ve Zlaté uličce u Daliborky u čp. 10/IV, čp. 31/IV a čp. 9/IV, ppč. 785",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 251
+    },
+	{
+      "id": 27,
+	  "name": "Pohřebiště u kostela sv. Klimenta na Starém Městě",
+      "caption": "Dosud neznámý hřbitov, který by mohl náležet výše uvedenému kostelu, byl objeven v roce 2011 nedaleko staroměstského konce Juditina mostu v šachtě ražené v průjezdu z Klementina na Křižovnické náměstí (Havrda 2013, 493). Pod souvrstvím vrcholně středověkých povodňových sedimentů zde bylo na poměrně malé ploše dokumentováno 18 hrobů.",
+      "address": "Křižovnické náměstí (Klementinum), ppč. 80, čp. 1040/I",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 252,
+      "images": [
+        {
+          "path": "14_sv_kliment.png",
+          "caption": "Pohřebiště u kostela sv. Klimenta."
+        }
+      ]
+    },
+	{
+      "id": 28,
+	  "name": "Pohřebiště v Dlouhé třídě",
+      "caption": "Při archeologické dokumentaci liniových výkopů pro inženýrské sítě byla v prostoru křižovatky Dlouhá–Dušní odkryta část raně středověkého pohřebiště (obr. 51). Na jižním konci Dušní ulice před domem čp. 924/I bylo v roce 1977 dokumentováno několik mělkých pravoúhlých objektů. Možnost, že jde o torza hrobových jam, podporuje nález sekundárně uložených lidských kostí.",
+      "address": "Ulice Dlouhá, ppč. 1019, před čp. 924/I",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 263,
+      "images": [
+        {
+          "path": "15_dlouha.png",
+          "caption": "Situace realizovaných archeologických výzkumů."
+        }
+      ]
+    },
+	{
+      "id": 29,
+	  "name": "Pohřebiště v Dlouhé třídě",
+      "caption": "Pohřebiště ze sklonku raného středověku bylo prozkoumáno v jižní části Malého náměstí. Náměstí se nalézá na středním staroměstském terasovém stupni (VIIb), jehož povrch byl cca o 2 m výše než terén nejnižší vltavské terasy (VIIc). Lze předpokládat, že právě hrana zmíněné terasy tvořila jihozápadní raj nekropole. V roce 1993 zde byl též dokumentován sídlištní a výrobní horizont s doklady železářské výroby. Později na ploše výrobního areálu vzniklo pohřebiště, z něhož se výzkumem podařilo dokumentovat více než 100 hrobů (Starec 1998a, 31).",
+      "address": "Malé náměstí, ppč. 1091",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 265,
+      "images": [
+        {
+          "path": "15_dlouha.png",
+          "caption": "Situace realizovaných archeologických výzkumů."
+        }
+      ]
+    },
+	{
+      "id": 30,
+	  "name": "Pohřebiště západně od křižovatky Konviktská / Karoliny Světlé, u sv. Kříže",
+      "caption": "Hroby byly patrně odkryty v roce 1892 při výstavbě domů při západní frontě ulice Karoliny Světlé a jižní frontě západního konce Konviktské ulice – domy čp. 135/I, 318/I a 319/I (obr. 54). Lze přepokládat, že vzhledem k původní geomorfologii terénu a blízkosti břehu Vltavy pocházejí nálezy nejspíše z pozemkus dnešním čp. 318/I, případně čp. 319/I. Řádný archeologický výzkum hrobů, o jejichž existenci svědčízmínky o lidských kostech, však v tomto prostoru neproběhl (Turek 1950, 70; Sláma 1977, 126; Havrda –Žďárská 2017, 102). Pohřbívání je datováno na základě předmětů získaných pro sbírku Národního muzea(stříbrné a bronzové esovité záušnice, prsteny, hrot železného šípu, bronzová toaletní lžička a dvě přezky).",
+      "address": "Ulice Konviktská / Karoliny Světlé čp. 135/I, 318/I, 319/I.",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 266
+    },
+	{
+      "id": 31,
+	  "name": "Pohřebiště u kostela sv. Michala ",
+      "caption": "Při výzkumech (obr. 55) vyvolaných nejčastěji snahami o adaptaci stavby byly v prostoru kolem jednolodního kostela objeveny raně středověké hroby. K nejstarším náležely hroby zjištěné severně od věže(obr. 55: ADB 1346), v nichž byly nalezeny dvě bronzové záušnice se stopami zlacení o průměru 30–32 mm, z dalšího hrobu byla vyzvednuta bronzová záušnice o průměru 24 mm (Dragoun 1990b, 289). Na základě stratigrafických poznatků, přítomnosti mince z 2. poloviny 12. století (v zásypu) a výskytu záušnic byly nejstarší pohřby datovány do 12. století. Některé hrobové jámy byly obloženy kameny. Hroby dávané do souvislosti s románským stavebním vývojem trojlodního chrámu byly nalezeny i v jeho interiéru(Huml – Starec 1997, 254; Starec 2004).",
+      "address": "Ulice Michalská, čp. 460/I, ppč. 413",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 268,
+	  "images": [
+        {
+          "path": "31_sv_michal.png",
+          "caption": "Situace realizovaných sond."
+        }
+      ]
+    },
+	{
+      "id": 32,
+	  "name": "Pohřebiště u kostela sv. Štěpána ve zdi",
+      "caption": "Nálezy lidských kostí v okolí kostela sv. Štěpána zařaditelné do závěru raného středověku byly dosud evidovány na pěti místech. Indikují tak existenci pohřebního areálu i v prostoru západního konce Bartolomějské ulice (podrobněji Starec 2011, 420). Jak časově navazují tyto nálezy na hroby datované do 10. století, jež byly objeveny východně od ulice Karoliny Světlé (Havrda – Žďárská 2017; Starec et al. 2020), není zřejmé. Přímo v prostoru vyústění Bartolomějské ulice do ulice Karoliny Světlé byly ve třech sondách zaznamenány hroby a též sekundárně přemístěné lidské kosti. Situace bohužel postrádala chronologicky citlivé artefakty. Není vyloučena souvislost se starším nálezem šperků včetně stříbrné záušnice, které měly pocházet z parcely blízkého domu čp. 314/I, byly získány pro sbírku Národního muzea a dnes jsou nezvěstné",
+      "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 270,
+      "images": [
+        {
+          "path": "19_stepan_ve_zdi.png",
+          "caption": "Situace realizovaných archeologických akcí s čísly ADB nebo výzkumů a sond."
+        }
+      ]
+    },
+	{
+      "id": 33,
+	  "name": "Pohřebiště u kostela sv. Valentina",
+      "caption": "V suterénu domu čp. 56/I byly v roce 1970 provedeny čtyři sondy. V sondách byla dokumentována různá zdiva a pozůstatky minimálně šesti pohřbů (Dragoun 2015). Zd. Dragoun předpokládá, že umístění nejstarší stavby může navazovat na existenci staršího pohřebiště, nicméně přímo hroby prokazatelně raně středověkého stáří nebyly zjištěny ani při dalších akcích východně od kostela, kde byl pod zaniklou ohradní zdí  zaznamenán hřbitovní horizont (Šírová 1977).",
+      "address": "Ulice Valentinská čp. 56/I, ppč. 59 a ppč. 1098/1",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 272,
+      "images": [
+        {
+          "path": "20_sv_valentin.png",
+          "caption": "Situace realizovaných archeologických akcí s čísly ADB"
+        }
+      ]
+    },
+	{
+      "id": 34,
+	  "name": "Pohřebiště u kostela sv. Haštala",
+      "caption": "Sondáž uvnitř stavby přinesla nálezy kostrových hrobů objevených v prostoru severní lodě baziliky. Autor výzkumu konstatoval, že nejstarší z objevených pohřbů byly překryty maltovou podlahou románského kostela (Huml 1996, 24), snad tedy předcházely jeho výstavbě . Další archeologický výzkum proběhl severně od kostela při realizaci kanalizační šachty na ploše někdejšího hřbitova. Na zkoumané ploše bylo objeveno celkem sedm do podloží zapuštěných hrobových jam s lidskými kosterními pozůstatky a zbytky rakví (obr. 65; Lochmann – Vachuda 2006, 119).",
+      "address": "Haštalské nám., ppč. 869",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 275,
+      "images": [
+        {
+          "path": "21_kostel_Hastala.png",
+          "caption": "Situace realizovaných archeologických výzkumů"
+        }
+      ]
+    },
+	{
+      "id": 35,
+	  "name": "Pohřebiště na Staroměstském náměstí u kostela sv. Mikuláše",
+      "caption": "Jedinou indicii pohřbívání u kostela sv. Mikuláše představuje nález lidských kostí učiněný při obhlídce liniového výkopu pro kabely podél jižní stěny chrámu. V roce 1970 zde byly nalezeny lidské kosti, patrně v druhotném uložení (Huml 1973c). Pomocí radiouhlíkové analýzy (Světlík 2010) bylo alespoň rámcově určeno jejich stáří do let 961–1224 (tab. 3).33 Interval naznačuje, že hrob, z něhož nálezy pocházejí, nepatřil k pohřebišti 2. poloviny 9. až 1. poloviny 10. století objevenému 50 metrů jihozápadně na dvoře domu čp. 13/I (Havrda 2002). Nejspíše lze uvažovat o existenci raně středověkého pohřebiště u kostela sv. Mikuláše, na němž se pohřbívalo snad už od 11. do počátku 13. století.",
+      "address": "Staroměstské nám., ppč. 1090,",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 277,
+      "images": [
+        {
+          "path": "35_sv_mikulas.png",
+          "caption": "Situace realizovaných archeologických výzkumů"
+        }
+      ]
+    },
+	{
+      "id": 36,
+	  "name": "Pohřebiště Havelská–Vejvodova",
+      "caption": "Oblast severozápadně od Havelské ulice náleží zatím k velmi málo archeologicky poznaným staroměstským areálům (Havrda – Žďárská 2017, 100, obr. 2). V roce 2007 proběhl archeologický výzkum v domě čp. 443/I ve Vejvodově ulici, v jehož rámci byl odkryt jeden kostrový hrob (obr. 67:C,D). Obsahoval kosti nedospělého jedince, jenž nebyl vybaven žádnými milodary ani osobními věcmi, proto bylo obtížné pohřeb přesněji datovat.",
+      "address": "Ulice Vejvodova, čp. 443/I,Havelská, čp. 509/I",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 278,
+      "images": [
+        {
+          "path": "36_havelska_vejvodova.png",
+          "caption": "Situace realizovaných archeologických výzkumů"
+        }
+      ]
+    },
+	{
+      "id": 45,
+	  "name": "Pohřebiště v Mikulandské a ve Spálené ulici",
+      "caption": "Z rozsáhlé plochy (cca 220–270 × 230 m) vymezené na severu výraznou hranou vltavské terasy (VIIa),přibližně v trase ulice Bartolomějské a na jihu ulicí Ostrovní, je známo množství hrobových nálezů datovaných od 10. do 12. století. Proměny pohřbívání – posuny v prostoru, vývoj v čase a další otázky kontinuity a diskontinuity na takto rozsáhlém území – budou muset být cílem dalšího bádání.",
+      "address": "Mikulandská čp. 135/II, ppč. 841, 842 a Národní čp. 137/II, ppč. 843",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 281
+    },
+	{
+      "id": 46,
+	  "name": "Pohřebiště v ulici Na Hrádku",
+      "caption": "Nad někdejší vyšehradskou cestou, jižně od Karlova náměstí, bylo v minulosti částečně prozkoumáno další pražské raně středověké pohřebiště. Na konci 19. století bylo při stavbě nových domů postupně odkrýváno v prostoru mezi ulicemi Vyšehradskou, Benátskou a Na Hrádku. Většina hrobů byla nalezena v severovýchodní části parcely domu čp. 1715/II. Pohřebiště je na základě nálezů – především denáru Břetislava I. (1034–1055), záušnic s průměrem od 12 do 21 mm, korálků a kaptorgy – datováno do 11. století s tím, že patrně vzniklo již na konci století předcházejícího (Sláma 1977, 119, 120; Lutovský 2005, 931).",
+      "address": "Ulice Na Hrádku, ppč. 1622",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 290
+    },
+	{
+      "id": 47,
+	  "name": "Pohřebiště u kostela Nejsv. Trojice v Podskalí",
+      "caption": "Na katastru Nového Města se uvažuje o existenci ještě jednoho raně středověkého pohřebiště – v Trojické ulici nedaleko od vltavského břehu. Při stavebních úpravách v roce 1896 v prostoru pod jižním svahem vyvýšeniny, na které stojí benediktinský emauzský klášter, došlo k narušení několika hrobů. V nich byly nalezeny lidské kosti a také tři bronzové záušnice, uložené ve sbírce Národního muzea.",
+      "address": "Ulice Trojická, ppč. 2446 a 1321/1,",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 290,
+	  "images": [
+        {
+          "path": "47_sv_trojice.png",
+          "caption": "Šikmé křížky – hrobové nálezy ze sklonku raného středověku, přesná lokalizace hrobů nejistá "
+        }
+        ]
+    },
+	{
+      "id": 48,
+	  "name": "Pohřebiště u kostela sv. Kosmy a Damiána",
+      "caption": "V roce 1951 evidoval I. Borkovský při terénním zásahu v rámci stavebních úprav na prostranství jižně od kostela sv. Kosmy a Damiána hrobovou jámu s nálezem lidských kostí a s pěti velkými esovitými záušnicemi z bronzového drátu. Jáma, jejíž lokalizaci autor hlášení popsal „na západní straně hlavního portálu Emauzského kostela, již blízko kostelíka Kosmy a Damiána, byla při hloubení světlíku blízko základů domu jižně zmíněného kostelíka se nalézajícího nalezena v hloubce 3 m kostra“ (Borkovský 1951).",
+      "address": "Ulice Vyšehradská a Na Slovanech, ppč. 2557/4",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 291
+    },
+	{
+      "id": 52,
+	  "name": "Pohřebiště u kostela sv. Petra a Pavla na Vyšehradě",
+      "caption": "Podle rekonstrukčního plánu L. Varadzina se v raném středověku pohřbívalo jak na ploše východně od kapitulního kostela, tak v prostoru západně od něho (Moucha – Nechvátal – Varadzin 2015, plán 2). Jižní hranici pohřebního areálu tvořil raně středověký příkop chránící vyšehradskou akropoli, nalézající se pouze 5–8 metrů jižně od chrámu. Severně od kostela se nacházel kapitulní dům a je otázkou, zda nekropole sahala až k němu. Pro nejstarší (mladohradištní) fázi pohřebiště je charakteristické řadové uspořádání hrobů, absence milodarů a skutečnost, že pohřbení měli paže položené podél těla. Vyhodnocení starší fáze pohřbívání je obtížné pro časté narušení při mladším pohřbívání (Nechvátal 2004, 67). Za zmínku stojí nález mince ve funkci tzv. obolu mrtvých – z hrobu č. 83 byl vyzvednut denár z knížecí vlády Vratislava II., 1061–1085 (Radoměrský 1955, 45). Nutno poznamenat, že hrob s denárem nepatřil k nej staršímu horizontu pohřbívání, neboť při jeho hloubení došlo k porušení starších hrobů (Nechvátal 2004, 67).",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 292
+    },
+	{
+      "id": 53,
+	  "name": "Pohřebiště u baziliky sv. Vavřince na Vyšehradě",
+      "caption": "Řadově uspořádané pohřebiště u kostela sv. Vavřince zaujímalo plochu 35 × min. 80 m. Pohřbívat se na něm začalo v 11. století a sloužilo do počátku 15. století. Hroby byly bez milodarů, u některých bylo evidováno kamenné obložení, u několika pak rozměrné pískovcové náhrobní kameny, paže pohřbených byly převážně položené podél těla. V hrobových jámách nebyly registrovány žádné stopy po dřevě. Z několika hrobů byl vyzvednut nevelký počet esovitých bronzových záušnic malého průměru (Nechvátal 2009, 189)",
+	  "publication": "Archeologie ve středních Čechách 25, 2021, číslo 1",
+      "page": 292
+    }
+  ]

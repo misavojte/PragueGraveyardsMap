@@ -164,7 +164,7 @@ export function createClusterElement(pointCount: number, count9_11: number, coun
 
 
     ctx.beginPath();
-    ctx.font = `20px sans-serif`;
+    ctx.font = `${11*ratio}px sans-serif`;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
     ctx.fillStyle = '#000';
